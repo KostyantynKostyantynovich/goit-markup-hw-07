@@ -4,11 +4,12 @@
 
 .advantages__size {
     width: 270px;
+
+    &:not(:last-child){
+        margin-right: 30px;
+    }
 }
 
-.advantages__size:not(:last-child) {
-    margin-right: 30px;
-}
 
 .advantages__image {
     background-color: var(--second-bg-color);

@@ -16,12 +16,13 @@
     display: flex;
 }
 
-.work-set__pictures:not(:last-child) {
-    margin-right: 30px;
-}
 
 .work-set__pictures {
     position: relative;
+
+    &:not(:last-child){
+        margin-right: 30px;
+    }
 }
 
 .image {
